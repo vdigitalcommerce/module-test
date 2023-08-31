@@ -1,0 +1,22 @@
+{
+    "name": "vdigitalcommerce/module-test",
+    "description": "VdigitalCommerce_Test",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Kevin",
+            "email": "vdigitalcommerce@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "VdigitalCommerce\\Test\\": ""
+        }
+    }
+}
